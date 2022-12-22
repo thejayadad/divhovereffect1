@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.box{
+    width: 70%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    background: #ddd;
+}
+.item{
+    height: 200px;
+    padding: 10px;
+    background: lightsteelblue;
+    border: 1px solid #ddd;
+    flex: 1;
+    transition: .2s;
+}
+.item:hover{
+    flex: 3;
+    background: rgb(43, 117, 213);
+
+}
