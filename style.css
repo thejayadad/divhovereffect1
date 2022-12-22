@@ -3,12 +3,15 @@
     padding: 0;
 
 }
+h3{
+    text-align: center;
+}
 .box{
     width: 70%;
     padding: 20px;
-    margin: 100px auto;
     display: flex;
     background: #ddd;
+    margin: 10px auto;
 }
 .item{
     height: 200px;
@@ -17,6 +20,9 @@
     border: 1px solid #ddd;
     flex: 1;
     transition: .2s;
+    align-items: center;
+    text-align: center;
+    display: flex;
 }
 .item:hover{
     flex: 3;
